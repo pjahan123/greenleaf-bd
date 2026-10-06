@@ -1,0 +1,1 @@
+const mongoose=require('mongoose');module.exports=mongoose.model('Product',new mongoose.Schema({id:String,name:String,type:String,category:String,subcategory:String,price:Number,oldPrice:Number,image:String,description:String,care:Object},{timestamps:true}));

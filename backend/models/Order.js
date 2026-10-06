@@ -1,0 +1,1 @@
+const mongoose=require('mongoose');module.exports=mongoose.model('Order',new mongoose.Schema({orderId:String,userId:String,items:Array,subtotal:Number,delivery:Number,total:Number,customer:Object,status:{type:String,default:'Processing'}},{timestamps:true}));
