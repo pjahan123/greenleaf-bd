@@ -1,0 +1,1 @@
+Product image provider updated: plants use Wikimedia Commons HTTPS file URLs; other catalog images use HTTPS image URLs. Product mappings are in frontend/src/data/products.js.
